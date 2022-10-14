@@ -1,6 +1,6 @@
 variable "vpc_cidr" {
     type      = string
-    default         = "160.0.0.0/16"    
+    default   = "160.0.0.0/16"
 }
 variable "vpc_name" {
     type      = string

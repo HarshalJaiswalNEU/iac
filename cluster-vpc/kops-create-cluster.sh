@@ -22,4 +22,5 @@ kops create cluster \
 --topology=private \
 --networking=calico \
 --bastion=true \
---yes
+--out=. \
+--target=terraform
