@@ -1,6 +1,6 @@
 # Cluster creation with VPC peering
 
-This repo is created to perform following tasks:
+The following things are accomplished by using this repository:
 
 * Create kuberenetes cluster using Kops on AWS. This will be done in cluster-vpc folder. This folder will have kops create,delete scripts for cluster and terraform script to launch the cluster resources.
 * Export cluster as terraform output.
