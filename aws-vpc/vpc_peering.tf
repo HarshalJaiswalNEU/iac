@@ -1,5 +1,5 @@
 resource "aws_vpc_peering_connection" "peer" {
-    # peer_owner_id = "657457564447"  Shrawani
+    # peer_owner_id = "657457564447"  #Shrawani
     # peer_owner_id = "487859816460" #Harshal
     peer_owner_id = "328312601153" #Vinit
     peer_vpc_id   = var.vpc_id
