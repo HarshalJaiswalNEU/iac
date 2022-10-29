@@ -16,3 +16,10 @@ variable "vpc_id" {
 variable "cluster_vpc_cidr" {
     type = string
 }
+
+variable "public_route_table" {
+    type = string
+}
+variable "private_route_table" {
+    type = string
+}
