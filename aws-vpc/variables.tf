@@ -23,3 +23,7 @@ variable "cluster_vpc_cidr" {
 variable "private_route_table" {
     type = string
 }
+variable "db_name"{
+    type = string
+    default = "rdsdbcsye7125"
+}
