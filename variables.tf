@@ -9,7 +9,3 @@ variable "jenkins_vpc_id" {
 variable "jenkins_public_route_table" {
     type = string
 }
-
-/* variable "jenkins_vpc_peering_id" {
-    type = string
-} */
